@@ -1,7 +1,11 @@
+*{
+    font-family: Arial;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+
 }
 
 header{
@@ -91,6 +95,44 @@ nav a:hover{
 }
 
 .banner-options{
-    height: 210px;
+    height: 210px;  
+    display: flex;
 }
 
+.banner-1, .banner-2, .banner-3{
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.banner-1{
+    background-color: #39aae1;
+}
+
+.banner-2{
+    background-color: #0079c7;
+}
+
+.banner-3{
+    background-color: #2b4c99;
+}
+
+.banner_title{
+    font-size: 21px;
+
+}
+
+.banner_desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-options a{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
