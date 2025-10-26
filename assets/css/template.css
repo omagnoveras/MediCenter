@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-
+    padding-bottom: 300px;
 }
 
 header{
@@ -123,9 +123,13 @@ nav a:hover{
 }
 
 .banner_desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
+    max-width: 400px; /* Limita a largura para não ficar muito largo */
 }
 
 .banner-options a{
@@ -136,3 +140,47 @@ nav a:hover{
     font-size: 12px;
     text-decoration: none;
 }
+
+.day1, .day2, .day3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+ 
+}
+
+#geral aside{
+    flex: 1;
+  
+}
+
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text{
+    font-size: 21px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.widget-title-bar{
+    background-color: #39aae1;
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+
+
