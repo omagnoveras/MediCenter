@@ -182,5 +182,40 @@ nav a:hover{
     margin-top: 10px;
 }
 
+.deparments-grid{
+    display: flex;
+    flex-flow: row wrap;
+}           
+
+.deparment-box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: #39aae1;
+}
+
+.appointment-box{
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.appointment-box a{
+    text-decoration: underline;
+    color: #39aae1;
+}
+
+.appointment-box i {
+    color: #999; /* Cinza claro */
+    font-size: 14px; /* Tamanho pequeno */
+    width: 16px; /* Largura fixa para alinhar */
+    text-align: center;
+    flex-shrink: 0; /* Não encolhe o ícone */
+}
+
+.appointment-line{
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
 
 
