@@ -223,6 +223,10 @@ nav a:hover{
     flex-wrap: wrap;
 }
 
+.flexcolumn{
+    flex-direction: column;
+}
+
 article{
     flex: 1;
     min-width: 250px;
@@ -274,4 +278,68 @@ article .news_title p{
     line-height: 20px;
     color: #525252;
     overflow-wrap: break-word;
+}
+
+footer{
+    background-color:#1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu{
+    display: flex;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    display: block;
+    color:#ffffff;
+    font-size: 12px;
+}
+
+
+footer .fm_1, footer .fm_2, footer .fm_3{
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer .fm_1{
+    background-color: #39aae1;
+}
+
+footer .fm_2{
+    background-color: #0079c7;
+}
+
+footer .fm_3{
+    background-color: #2b4c99;
+}
+
+
+.footer-area{
+    display: flex;
+}
+
+.fa_itens{
+    flex: 1;
+    color: #ffffff;
+}
+
+.footer-box{
+    color: #ffffff;
+}
+
+.fa_itens .widget-title-text{
+    color: #ffffff;
+}
+
+.footer-copyright{
+    color: #5c5c5c;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #2c2c2c;
+    margin-top: 30px;
+    padding: 10px;
 }
