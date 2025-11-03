@@ -294,13 +294,13 @@ footer{
     display: block;
     color:#ffffff;
     font-size: 12px;
+    padding: 20px;
 }
 
 
 footer .fm_1, footer .fm_2, footer .fm_3{
     flex: 1;
     color: #ffffff;
-    padding: 20px;
 }
 
 footer .fm_1{
@@ -401,6 +401,11 @@ footer .fm_3{
     color: #39aae1;
     margin: 0;
     margin-top: 2px;
+}
+
+.fa_i2 a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .fa_i3 {
