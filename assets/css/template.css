@@ -430,3 +430,56 @@ footer .fm_3{
     text-decoration: none;
     color: #ffffff;
 }
+
+@media (max-width:600px){
+    #banner{
+        height: auto;
+    }
+
+    .banner-headline{
+        padding-left: 20px;
+    }
+
+    .banner-headline h1{
+        font-size: 29px;
+    }
+
+    .banner-headline h2{
+        font-size: 16px;
+    }
+
+    .banner-options{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner-1, .banner-2, .banner-3{
+        padding: 10px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container section,
+    .container aside{
+        padding: 20px;
+    }
+   
+    .footer-menu{
+        flex-direction: column;
+    }
+
+    .footer-area{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copyright{
+        margin-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+}
