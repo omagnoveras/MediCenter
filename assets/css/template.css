@@ -431,6 +431,22 @@ footer .fm_3{
     color: #ffffff;
 }
 
+.menuMobile{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menuMobile .mm_line{
+    height: 4px;
+    background-color: #39aae1;
+    border-radius: 2px;
+}
+
 @media (max-width:600px){
     #banner{
         height: auto;
@@ -481,5 +497,23 @@ footer .fm_3{
 
     header .container{
         flex-direction: row;
+
+    }
+
+    .menu ul{
+        display: none;
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .menuMobile{
+        display: flex;
     }
 }
