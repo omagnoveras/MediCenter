@@ -95,6 +95,7 @@ nav a:hover{
 .banner-options{
     height: 210px;  
     display: flex;
+    flex-direction: row;
 }
 
 .banner-1, .banner-2, .banner-3{
@@ -466,12 +467,20 @@ footer .fm_3{
     }
 
     .banner-options{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: auto;
+        padding: 0 20px; 
     }
 
     .banner-1, .banner-2, .banner-3{
-        padding: 10px;
+        flex: 1 1 0;  
+        padding: 15px;
+        justify-content: space-between;
+    }
+
+    .banner-headline h1 {
+        margin-bottom: 20px;  /* Reduz margem */
     }
 
     .container{
